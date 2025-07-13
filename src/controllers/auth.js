@@ -78,7 +78,6 @@ export const refreshUserSessionController = async (req, res) => {
   });
 };
 
-// -----------------------------------------------------
 export const sendResetEmailController = async (req, res) => {
   await sendResetToken(req.body.email);
   res.json({
