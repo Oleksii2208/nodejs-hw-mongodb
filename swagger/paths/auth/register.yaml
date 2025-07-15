@@ -56,8 +56,8 @@ responses:
               properties:
                 _id:
                   description: User ID
-                  example:
                   type: string
+                  example: '683e09e98e64d4b792a71f00'
                 name:
                   description: User's name
                   type: string

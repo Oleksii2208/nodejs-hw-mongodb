@@ -196,7 +196,6 @@
                 "required": [
                   "name",
                   "phoneNumber",
-                  "isFavourite",
                   "contactType"
                 ],
                 "properties": {
@@ -549,8 +548,8 @@
                       "properties": {
                         "_id": {
                           "description": "User ID",
-                          "example": null,
-                          "type": "string"
+                          "type": "string",
+                          "example": "683e09e98e64d4b792a71f00"
                         },
                         "name": {
                           "description": "User's name",
